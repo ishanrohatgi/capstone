@@ -1,0 +1,93 @@
+h1{
+	background:skyblue;
+	text-align: center;
+	color:white;
+}
+#bar nav a{
+
+	border:1px solid  red;
+	text-decoration: none;
+	color:white;
+	background:rgba(171, 183, 183, 0.6);
+    border-radius: 3px;
+    padding:1% 5% 1% 5%;
+    margin:1% 5% 1% 5%;
+
+}
+#bar .active{
+
+	background:rgba(171, 183, 183, 1);
+
+}
+body{
+	background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+
+img{
+
+	display: inline-block;
+    float:right;
+	width:15%;
+	height: 2%;
+	border-radius: 100%;
+	border:5px inset blue ;
+}
+
+#main_container{
+	display: inline-block;
+    border:2px inset red;
+    width:65%;
+    padding: 5%;
+    margin:2%;
+    font-weight:bold;
+    font-family:Verdana;
+}
+#table{
+     border:2px solid black;
+     width:100%;
+
+
+}
+#table td,th{
+	border:2px solid black;
+	text-align: center;
+
+}
+h2{
+	text-align: center;
+	font-family: "Times New Roman";
+	color:blue;
+}
+#table tr:hover{
+	background-color: rgba(111,221,112,0.5);
+}
+footer nav{
+	text-align: center;
+}
+footer button{
+
+	display: inline-block;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 1% 1% 1% 1%;
+	margin: 1% 44% 1% 44%;
+}
+@media screen and (max-width:768px)
+{
+
+	img{
+		display: none;
+	}
+	#main_container{
+		width: 80%;
+	}
+	#bar nav a{
+		padding: 1%;
+		margin:1% 8% 1% 8%;
+	}
+	h1{
+
+		background: linear-gradient(#aadfba,#a0b2ed,#a7c6da);
+	}
+
+} 
